@@ -1,0 +1,7 @@
+---
+title: "Slacker News"
+type: "challenge"
+description: "Slap together some HTML & CSS to make an ugly looking website."
+visibility: "onsite"
+ignore:
+- "slacker-news.md"

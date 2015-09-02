@@ -1,0 +1,68 @@
+.clearfix:after {
+     visibility: hidden;
+     display: block;
+     font-size: 0;
+     content: " ";
+     clear: both;
+     height: 0;
+     }
+.clearfix { display: inline-block; }
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  font-size: 10pt;
+
+}
+div#all {
+  background-color: #E5E4E2;
+  margin-top: 5px;
+  margin-left: 35px;
+  margin-right: 35px;
+  padding-bottom: 5px;
+}
+div#banner {
+  background-color: #F87431;
+  padding: 8px;
+}
+span#Y {
+  padding-left: 8px;
+  padding-right: 8px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  border: 3px solid white;
+  color: white;
+  font-size: 18px;
+}
+span#login {
+  float: right;
+}
+ol {
+  color:grey;
+}
+p.data{
+  font-size: 7pt;
+  text-indent: 18px
+}
+span.title{
+  color:black;
+}
+p.small {
+  line-height: 5%;
+}
+div#more {
+  text-indent: 55px;
+}
+div#foot {
+  text-align: center;
+  font-size: 9pt;
+}
+p#search {
+  color:grey;
+  font-size: 10pt;
+}
+hr {
+  background-color: orange;
+  height: 1px;
+  border: 0;
+}
